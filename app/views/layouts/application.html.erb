@@ -8,7 +8,7 @@
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
   </head>
 
-  <body>
-    <%= yield %>
+  <body ng-app="TriviaApp">
+    <ui-view></ui-view>
   </body>
 </html>
