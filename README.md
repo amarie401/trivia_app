@@ -1,24 +1,17 @@
-# README
+View on Heroku: https://young-springs-25310.herokuapp.com/#!/login
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Partners: 
 
-Things you may want to cover:
+Scott Hsu
 
-* Ruby version
+Doug Eisner
 
-* System dependencies
+Joe Merchant
 
-* Configuration
+##To-Do
 
-* Database creation
+- Implement Leaderboard
+- Add Form Validation
+- Add scores to UserProfile
 
-* Database initialization
 
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
