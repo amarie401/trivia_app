@@ -4,7 +4,13 @@ This Project Reinforces: JavaScript and ES6 Angular, Services, Controllers, Angu
 
 View on Heroku: https://young-springs-25310.herokuapp.com/#!/login
 
-Partners: Scott Hsu, Doug Eisner, Joe Merchant
+Partners: 
+
+Scott Hsu(Front-End)
+
+Doug Eisner(Back-End)
+
+Joe Merchant(Back-End)
 
 ##To-Do: 
 
