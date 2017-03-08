@@ -1,0 +1,30 @@
+<doctype html>
+<html lang="en" ng-app="TriviaApp">
+    <head>
+        <meta charset="UTF-8">
+        <meta content="width=device-width, initial-scale=1" name="viewport">
+        <title>Trivia App</title>
+    </head>
+
+    <body ng-controller="LoginController as login">
+
+        <header class="header" role="banner">
+                <h1>Trivia Quizz</h1>
+            <nav ng-show="getCurrentUser().email">
+                <ul>
+                    <li class="active"><a ui-sref="TriviaParent.profile">Profile</a>
+                    </li>
+                    <li><a ui-sref="TriviaParent.game">Game</a>
+                    </li>
+                    <li><a ui-sref="TriviaParent.leader">Leaderboard</a>
+                    </li>
+                    <li><a ng-click="logout()" ui-sref="TriviaParent.login">Logout</a>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <ui-view></ui-view>
+        </main>
+    </body>
+
+</html>

@@ -1,0 +1,66 @@
+.header {
+    width: 100%;
+    z-index: 1000;
+    top: 0;
+    left: 0;
+    border: none;
+    background-color: rgba(255, 255, 255, 0.4);
+    box-shadow: 0 3px 2px 0 rgba(50, 50, 50, 0.2);
+    margin-top: 20px;
+    padding: 20px 0;
+}
+
+nav {
+    margin: 2em;
+}
+
+ul {
+    list-style-type: none;
+    text-align: center;
+}
+
+li {
+    height: 20px;
+    margin-right: 0;
+    border-right: 1px solid #1976D2;
+    padding: 0 20px;
+    display: inline;
+}
+
+li:last-child {
+    border-right: none;
+}
+
+li a {
+    text-decoration: none;
+    color: #BBDEFB;
+    font-size: 18px;
+    text-transform: uppercase;
+    transition: all 0.5s ease;
+    display: inline-block;
+    font-family: 'Lato';
+}
+
+li a:hover,
+li.active a {
+    color: #2196F3;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Baloo';
+    font-size: 40px;
+}
+
+h1.ng-scope {
+    margin-top: 20px;
+}
+
+body {
+    background: url('http://wallpapercave.com/wp/f2nbsPJ.jpg');
+    position: relative;
+}
+
+.is-hidden {
+    display: none;
+}

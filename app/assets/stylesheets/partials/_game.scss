@@ -1,0 +1,121 @@
+.user-game-main {
+    align-items: center;
+    background-color: #e6e6e6;
+    background-image: url("http://www.transparenttextures.com/patterns/woven.png");
+    border: 1px solid black;
+    border-radius: 10px;
+    display: flex;
+    flex-flow: column;
+    height: 80%;
+    margin: 130px;
+    width: 80%;
+}
+
+.trivia-main {
+    align-items: center;
+    background: linear-gradient(135deg, rgba(250, 198, 149, 1) 0%, rgba(245, 171, 102, 1) 47%, rgba(239, 141, 49, 1) 100%);
+    border-radius: 10px;
+    flex-direction: column;
+    height: 400px;
+    margin: 30px;
+    width: 80%;
+}
+
+.main-game-section {
+    align-items: center;
+    display: flex;
+    flex-flow: column;
+    height: 90%;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.trivia-question-section {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex-flow: column;
+    font-family: 'Baloo';
+    font-size: 30px;
+    width: 90%;
+}
+
+.trivia-question {
+    width: 100%;
+}
+
+.trivia-answer-section {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    font-family: 'Baloo';
+    font-size: 15px;
+    justify-content: center;
+    width: 90%;
+}
+
+.radio {
+    width: 140px;
+    height: 30px;
+    position: relative;
+}
+
+label.ng-binding {
+    font-size: 14px;
+    width: 100%;
+}
+
+.page-buttons {
+    display: flex;
+}
+
+.bummer {
+    border-radius: 10px;
+    background: linear-gradient(135deg, rgba(0, 183, 234, 1) 0%, rgba(0, 158, 195, 1) 100%);
+    font-family: 'Baloo';
+    font-size: 20px;
+    width: 100%;
+}
+
+.submit-answers {
+    border-radius: 10px;
+    background: linear-gradient(135deg, rgba(0, 183, 234, 1) 0%, rgba(0, 158, 195, 1) 100%);
+    font-family: 'Baloo';
+    font-size: 20px;
+    width: 100%;
+    cursor: pointer;
+}
+
+.question-counter {
+    float: right;
+    font-family: 'Baloo';
+    font-size: 25px;
+}
+
+.show-answer-container {
+    background: linear-gradient(135deg, rgba(0, 183, 234, 1) 0%, rgba(0, 158, 195, 1) 100%);
+    border-radius: 25px;
+    flex-flow: column;
+    font-family: 'Baloo';
+    font-size: 20px;
+    text-align: center;
+    margin: 15px;
+}
+
+.main-answer-container {
+    width: 90%;
+}
+
+.get-question {
+    background: linear-gradient(135deg, rgba(0, 183, 234, 1) 0%, rgba(0, 158, 195, 1) 100%);
+    border-radius: 10px;
+    font-family: 'Baloo';
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.radio {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}

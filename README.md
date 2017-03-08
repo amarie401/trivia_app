@@ -1,19 +1,24 @@
 # README
 
-This Project Reinforces: JavaScript and ES6 Angular, Services, Controllers, Angular States and Routes, Consuming APIs, CRUD Behavior
+This README would normally document whatever steps are necessary to get the
+application up and running.
 
-View on Heroku: https://young-springs-25310.herokuapp.com/#!/login
+Things you may want to cover:
 
-Partners: 
+* Ruby version
 
-Scott Hsu(Front-End)
+* System dependencies
 
-Doug Eisner(Back-End)
+* Configuration
 
-Joe Merchant(Back-End)
+* Database creation
 
-##To-Do: 
+* Database initialization
 
-- Fix/Add Form Validation
-- Implement Leaderboard
-- Add Scores to UserProfile
+* How to run the test suite
+
+* Services (job queues, cache servers, search engines, etc.)
+
+* Deployment instructions
+
+* ...

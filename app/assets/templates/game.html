@@ -1,0 +1,35 @@
+<section class="user-game-main">
+    <div class="trivia-main">
+        <span class="question-counter"> Question #{{count}}</span>
+
+        <div class="main-game-section">
+
+            <form type="submit" class="page-buttons">
+                <input type="submit" ng-click="getQuestion()" class="get-question" value="Get Question">
+                <input ng-click="postScores()" type="submit" class="submit-answers" value="Submit">
+            </form>
+            <div ng-repeat="question in allQuestions" class="trivia-question-section">
+
+                <p class="trivia-question">
+                    {{question.question}}
+                </p>
+            </div>
+            <div ng-repeat="items in allQuestions" class="trivia-answer-section">
+                <div ng-repeat="answer in items.answers " class="radio">
+                    <input type="radio" name="answer" ng-click="getUserAnswer()" ng-value="answer" class="answer-button" />
+                    <label for="answer">{{answer}}</label>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div ng-repeat="items in allQuestions track by $index" class="main-answer-container">
+        <section class="show-answer-container is-hidden">
+            <p>Question: {{items.question}} </p>
+            <p>Your Answer: {{items.userAnswer}}</p>
+            <p>Correct Answer: {{items.correctAnswer}}</p>
+            <p>Your Answer was: {{items.isUserAnswerCorrect}}</p>
+        </section>
+    </div>
+    <input ng-click="changeToGamePage()" type="submit" class="play-again-button is-hidden" value="Play Again" />
+</section>

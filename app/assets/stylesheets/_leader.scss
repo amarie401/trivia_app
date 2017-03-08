@@ -1,0 +1,36 @@
+.user-profile-main {
+    align-items: center;
+    background-color: #e6e6e6;
+    background-image: url("http://www.transparenttextures.com/patterns/woven.png");
+    border: 1px solid black;
+    border-radius: 10px;
+    display: flex;
+    flex-flow: column;
+    height: 400px;
+    justify-content: flex-start;
+    margin: 130px;
+    width: 80%;
+}
+
+.single-user-board {
+    align-items: center;
+    background: linear-gradient(135deg, rgba(250, 198, 149, 1) 0%, rgba(245, 171, 102, 1) 47%, rgba(239, 141, 49, 1) 100%);
+    border-radius: 10px;
+    display: flex;
+    font-family: 'Baloo';
+    font-size: 30px;
+    height: 50px;
+    justify-content: space-around;
+    margin: 20px;
+    width: 100%;
+}
+
+.leader-board {
+    align-items: flex-start;
+    /*border: 1px solid black;*/
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 70%;
+}
