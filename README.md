@@ -4,6 +4,8 @@ This Project Reinforces: JavaScript and ES6 Angular, Services, Controllers, Angu
 
 View on Heroku: https://young-springs-25310.herokuapp.com/#!/login
 
+Partners: Scott Hsu, Doug Eisner, Joe Merchant
+
 ##To-Do: 
 
 - Fix/Add Form Validation
