@@ -12,7 +12,7 @@
 
 View on Heroku: https://young-springs-25310.herokuapp.com/#!/login
 
-Partners: 
+####Partners: 
 
 Scott Hsu
 
