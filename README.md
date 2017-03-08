@@ -1,3 +1,5 @@
+#Trivia Quiz
+
 ###This project will reinforce some of the following areas:
 
 - JavaScript and ES6
