@@ -16,11 +16,11 @@ View on Heroku: https://young-springs-25310.herokuapp.com/#!/login
 
 ####Partners: 
 
-Scott Hsu
+Scott Hsu (Front-End)
 
-Doug Eisner
+Doug Eisner (Back-End)
 
-Joe Merchant
+Joe Merchant (Back-End)
 
 ##To-Do
 
