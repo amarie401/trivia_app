@@ -16,6 +16,8 @@ Trivia Quizz is a app where a user can signup and play a game of trivia, answer 
 
 ####Partners: 
 
+Amineta Lo (Front-End) 
+
 Scott Hsu (Front-End)
 
 Doug Eisner (Back-End)
