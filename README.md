@@ -1,6 +1,8 @@
-#Trivia Quiz
+#Trivia Quizz
 
-###This project will reinforce some of the following areas:
+View on Heroku: https://young-springs-25310.herokuapp.com/#!/login
+
+Trivia Quizz is a app where a user can signup and play a game of trivia, answer multiple questions, and find out their results at the end of the game. The objective was to reinforce some of the following areas:
 
 - JavaScript and ES6
 
@@ -11,8 +13,6 @@
 - Consuming APIs
 
 - CRUD Behavior
-
-View on Heroku: https://young-springs-25310.herokuapp.com/#!/login
 
 ####Partners: 
 
