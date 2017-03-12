@@ -32,6 +32,7 @@
 
         $('.get-question').on('click', function() {
             $('.trivia-question, .radio').addClass('is-hidden');
+            $(this).val('Next Question');
         });
 
 
